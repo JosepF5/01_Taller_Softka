@@ -6,7 +6,7 @@ En este taller cree las siguiente clases con los siguiente métodos y atributos:
 1) BankAccount
 ------Atributos------
 - accountNumber: int
-# activated: boolean
+(#) activated: boolean
 -------Métodos-------
 + setActived(boolean actived)
 + getActived(): boolean
