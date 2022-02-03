@@ -1,32 +1,24 @@
 
 package Clases;
 
-import java.util.Date;
+import java.util.ArrayList;
 /**
- * Representa los atributos y metodos de un usuario común
+ * Representa los atributos y metodos de la mascota de un usuario común
  * @author Josep Palomino
  */
-public class Person {
+public class Pet {
     /**
-     * Representa el nombre de una persona
+     * Representa el nombre de la mascota
      */
     public String name;
     /**
-     * Representa el apellido de una persona
+     * Representa la raza de la mascota
      */
-    public String lastName1;
+    public String race;
     /**
-     * Representa el segundo apellido de una persona
+     * Representa si la mascota presenta alergias
      */
-    public String lastName2;
-    /**
-     * Representa la fecha de nacimiento de una persona
-     */
-    public Date dateBirth;
-    /**
-     * Representa el peso de una persona
-     */
-    public float height;
+    private boolean allergies;
     /**
      * Devuelve el valor del atributo "name"
      * @return Valor del atributo "name"
